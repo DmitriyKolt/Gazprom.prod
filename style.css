@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    max-width: 1920px;
+}
+
 header {
     background: url(images/bridge.png) no-repeat;
     max-width: 1920px;
@@ -163,4 +167,376 @@ h2 {
     top: 1093px;
     position: absolute;
     padding-top: 55px;
+}
+
+.the-smartest {
+    position: absolute;
+    max-width: 1920px;
+    width: 100%;
+    height: 181px;
+    top: 1821px;
+    background-color: #F7654A;
+}
+
+
+.the-smartest h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 537px;
+    position: absolute;
+    left: 405px;
+    top: 30px;
+    text-align: left;
+}
+
+.the-smartest h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    position: absolute;
+    left: 405px;
+    top: 107px;
+    text-transform: uppercase;
+}
+
+.the-smartest button {
+    background: url(images/mail.png) no-repeat;
+    background-color: #FFFFFF;
+    background-position: right 80% center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 14px 30px 14px 64px;
+    border-style: none;
+    position: absolute;
+    left: 1340px;
+    top: 73px;
+    text-transform: uppercase;
+}
+
+.busy {
+    position: absolute;
+    width: 1110px;
+    height: 639px;
+    left: 405px;
+    top: 2152px;
+}
+
+.busy h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    margin-left: 0 auto;
+    width: 351px;
+    position: absolute;
+    left: 379px;
+    top: 0;
+}
+
+.industries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.industries figure {
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    margin: 0;
+    padding-top: 66px;
+}
+
+.industries figcaption {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 172px;
+    margin-left: 86px;
+    margin-top: 20px;
+}
+
+.industries img {
+    vertical-align: middle;
+    margin-top: 59px;
+}
+
+.busy .industries {
+    margin-top: 66px;
+}
+
+.gallery {
+    position: absolute;
+    max-width: 1920px;
+    height: 814px;
+    top: 2941px;
+}
+
+.gallery img {
+    width: 25%;
+    border: none;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.list {
+    position: absolute;
+    width: 730px;
+    height: 452px;
+    left: 0;
+    top: 103px;
+}
+
+summary {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+}
+
+details {
+    padding-bottom: 30px;
+}
+
+ol {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    padding: 0;
+}
+
+.questions {
+    position: absolute;
+    height: 452px;
+    left: 405px;
+    top: 3905px;
+}
+
+.questions h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    position: absolute;
+    width: 321px;
+    height: 53px;
+    left: 394px;
+    top: 0;
+}
+
+.partners {
+    max-width: 1920px;
+    width: 100%;
+    background: #404149;
+    position: absolute;
+    left: 0px;
+    top: 4507px;
+}
+
+.partners h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 832px;
+    top: 100px;
+    width: 256px;
+    margin: 0;
+}
+
+.partners img {
+    width: 170px;
+    height: 61px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 203px;
+    margin-bottom: 100px;
+}
+
+.reviews {
+    position: absolute;
+    width: 1126px;
+    height: 431px;
+    left: 405px;
+    top: 5021px;
+}
+
+.reviews H2 {
+    position: absolute;
+    width: 398px;
+    height: 53px;
+    left: 356px;
+    top: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+    margin: 0;
+}
+
+.reviews p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    width: 290px;
+    height: 143px;
+    margin: 16px 30px 68px 30px;
+}
+
+.review img {
+    margin-left: 30px;
+}
+
+.review-info {
+    width: 292px;
+    position: absolute;
+    left: 28px;
+}
+
+.review {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    gap: 30px;
+}
+
+
+abbr {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #F7654A;
+    display: inline;
+    margin: 0;
+    padding-right: 60px;
+}
+
+.reviews span {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    display: inline;
+    margin: 0;
+}
+
+.review {
+    width: 350px;
+}
+
+.users {
+    position: absolute;
+    top: 406px;
+}
+
+.work {
+    position: absolute;
+    max-width: 1920px;
+    width: 100%;
+    height: 181px;
+    top: 5602px;
+    background-color: #F7654A;
+}
+
+
+.work h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 586px;
+    position: absolute;
+    left: 405px;
+    top: 30px;
+    text-align: left;
+}
+
+.work h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    position: absolute;
+    left: 405px;
+    top: 107px;
+    text-transform: uppercase;
+}
+
+.work button {
+    background: url(images/mail.png) no-repeat;
+    background-color: #FFFFFF;
+    background-position: right 80% center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 14px 30px 14px 64px;
+    border-style: none;
+    position: absolute;
+    left: 1340px;
+    top: 73px;
+    text-transform: uppercase;
 }
