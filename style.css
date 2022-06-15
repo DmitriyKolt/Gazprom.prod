@@ -540,3 +540,125 @@ abbr {
     top: 73px;
     text-transform: uppercase;
 }
+
+.contacts {
+    width: 1110px;
+    height: 304px;
+    position: absolute;
+    left: 405px;
+    top: 5883px;
+}
+
+.contacts h2 {
+    position: absolute;
+    width: 159px;
+    height: 53px;
+    left: 475px;
+    top: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.contacts-items {
+    position: absolute;
+    top: 113px;
+}
+
+.contacts .con-item3,
+.con-item4 figure img {
+    text-align: center;
+}
+
+.con-item4 img {
+    padding-left: 100px;
+}
+
+.con-item4 p {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    margin-bottom: 0;
+}
+
+
+
+.contacts figure p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+
+.con-item4 figcaption {
+    color: #F7654A;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contacts .con-item1,
+.con-item2,
+.con-item3 figcaption {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.contacts-items figure {
+    margin: 0;
+}
+
+.contacts-items {
+    display: flex;
+    gap: 30px;
+}
+
+.contacts-items figure {
+    width: 251px;
+    height: 22px;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 6337px;
+}
+
+.company {
+    width: 251px;
+    height: 22px;
+}
+
+.footer-info {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    gap: 639px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #404149;
+    padding: 30px 350px 30px 403px;
+}
+
+
+
