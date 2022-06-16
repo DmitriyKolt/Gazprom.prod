@@ -648,6 +648,7 @@ footer {
 .footer-info {
     display: flex;
     position: absolute;
+    width: 100%;
     top: 30px;
     gap: 639px;
     font-family: 'Open Sans';
